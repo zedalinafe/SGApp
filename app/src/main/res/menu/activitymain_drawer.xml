@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_create_sg"
+            android:icon="@drawable/ic_baseline_group_add_24"
+            android:title="Create Group" />
+        <item
+            android:id="@+id/nav_join_sg"
+            android:icon="@drawable/ic_baseline_groups_24"
+            android:title="Join Savings Group" />
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="Save" />
+
+        <item
+            android:id="@+id/nav_get_loan"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="Get Loan" />
+        <item
+            android:id="@+id/nav_approvals"
+            android:icon="@drawable/ic_baseline_approval_24"
+            android:title="Approvals" />
+
+    </group>
+</menu>
